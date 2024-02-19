@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container{
+        background-color: black;
+        border:none;
+        height:450px;
+        width:300px;
+        display: inline-block;
+        padding: 30px;
+        border-radius: 20px;
+        }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+       .esp{
+          flex:1;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          height:80px;
+          width:290px;
+          margin-top: 10px;
+          background-color: gray;
+          border: none;
+          border-radius: 7px;
+          padding-right: 10px;
+       }
+       .con > p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid black
+       }
+       .con{
+        flex:1;
+        display: flex;
+        gap:10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+        }
+        button{
+            background-color: red;
+            height:70px;
+            width:70px;
+            font-size: 25px;
+            color: black;
+            border:none;
+            border-radius: 8px;
+            margin-top:10px ;
+        }
+        .ii > p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        border:1px solid black
+       }
+       .ii{
+        flex:1;
+        display: flex;
+        gap:10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+        .jj > p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid black
+       }
+       .jj{
+        flex:1;
+        display: flex;
+        gap:10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+        .hh > p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid black
+       }
+       .hh{
+        flex:1;
+        display: flex;
+        gap:10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+        
+    </style>
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+<div class="main">
+    <div class="container">
+        <div class="esp" data-operation="">
+            
+        </div>
+        <div class="con">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+        </div>
+        <div class="ii">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>-</button>
+        </div>
+        <div class="jj">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="equ">=</button>
+        </div>
+        <div class="hh">
+            <button>0</button>
+            <button>x</button>
+            <button>/</button>
+            <button>c</button>
+            
+        </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
